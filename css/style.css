@@ -1,0 +1,172 @@
+.top-section {
+    background-image: url('https://i.postimg.cc/rszDBK9y/header-bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: absolute; 
+    width: 100%;
+    top: 0; 
+    border: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+
+.horizontal {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.horizontal .nav-item {
+    margin-right: 20px;
+}
+
+
+.welcome-text {
+    font-size: 36px;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+
+.yellow-icon {
+    color: #ffc107;
+}
+
+
+.services-section {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.services-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.yellow-icon {
+    color: #ffc107;
+}
+
+
+.services-section {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.services-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service {
+    text-align: center;
+    margin: 20px;
+}
+
+.portfolio-section {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.portfolio-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-item {
+    text-align: center;
+    margin: 20px;
+    flex: 0 0 calc(33.33% - 40px); 
+}
+
+.portfolio-item img {
+    max-width: 100%; 
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.golden-text {
+    font-size: 28px;
+    color: #ffc107; 
+    font-family: 'Marker Felt', cursive; 
+    text-transform: uppercase; 
+    margin-left: -530px; 
+    margin-top: -180px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.horizontal .nav-item {
+    margin-right: 20px;
+    padding: 10px;
+    position: relative;
+    margin: 0 36px 0 0;
+    color: white;
+    display: inline-block; 
+}
+
